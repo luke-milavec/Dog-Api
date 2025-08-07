@@ -1,0 +1,13 @@
+@DogApi_HostAddress = http://localhost:5155
+
+### Get a photo by breed
+GET {{DogApi_HostAddress}}/dogphoto/labrador
+Accept: application/json
+
+###
+
+### Get a photo by breed and sub-breed
+GET {{DogApi_HostAddress}}/dogphoto/bulldog/english
+Accept: application/json
+
+###
